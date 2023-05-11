@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sasono Utomo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Ganti dengan lokasi file CSS Anda -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css"> <!-- Tambahkan link CDN Feather Icons -->
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #00bfff, #0080ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .profile-card {
+      max-width: 490px;
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .profile-card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .profile-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .profile-card li {
+      margin-right: 1px;
+    }
+
+    .profile-card li:last-child {
+      margin-right: 0;
+    }
+
+    .profile-card a {
+      color: #333;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .profile-card a i {
+      margin-right: 2px;
+      background-color: #fff; /* Tambahkan latar belakang putih pada ikon */
+      padding: 10px; /* Tambahkan padding untuk mengisi ruang ikon */
+      border-radius: 50%; /* Bulatkan ikon */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Profil Sosial Media</h1>
+    <div class="profile-card">
+      <img src="img/Foto-jadul.jpg" alt="Foto Profil">
+      <h2>Sasono Utomo</h2>
+      <ul>
+        <li><a href="https://www.facebook.com/"><i data-feather="facebook"></i>Facebook</a></li>
+        <li><a href="https://www.instagram.com/"><i data-feather="instagram"></i>Instagram</a></li>
+        <li><a href="https://www.twitter.com/"><i data-feather="twitter"></i>Twitter</a></li>
+        <li><a href="https://www.zonaperang.com/"><i data-feather="globe"></i>Website</a></li> <!-- Tambahkan URL channel website Anda -->
+        <li><a href="https://www.youtube.com/"><i data-feather="youtube" ></i>Twitter</a></li>      
+        <li><a href="https://www.linkedin.com/"><i data-feather="linkedin"></i>
+        </ul>
+    </div>
+      
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script> <!-- Tambahkan link script Feather Icons -->
+    <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            feather.replace(); // Mengganti ikon dengan ikon Feather Icons setelah halaman dimuat
+          });
+    </script>
+</body>
+</html>
